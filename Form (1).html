@@ -1,0 +1,44 @@
+<HTML>
+    <HEAD>
+        <TITLE>
+            Experiment 1: Form
+        </TITLE>
+    </HEAD>
+    <BODY>
+        <h1 align="center">In this experiment, we are creating a form</h1>
+        <form size="7">
+            Enter Username<input type="text" name="User" maxlength="30"/><br><br>
+            Enter Password<input type="password" name="Password"/><br><br>
+            Address<textarea name="Address" rows="5" cols="30"></textarea name><br><br>
+            Fields of Interest
+            <input type="checkbox" name="chk1"/>Entertainment
+            <input type="checkbox" name="chk2"/>Sports
+            <input type="checkbox" name="chk3"/>News<br><br>
+            Gender
+            <input type="radio" name="opt1"/>Woman
+            <input type="radio" name="opt2"/>Not Woman
+            <input type="radio" name="opt3"/>Maybe Woman<br><br>
+            Select Language
+            <select name="lang" multiple>
+                <option>Marathi</option>
+                <option>English</option>
+                <option>Gujarati</option>
+            </select><br><br>
+            Select Country
+            <select name="cunty">
+                <option>India</option>
+                <option>Finland</option>
+                <option>Japan</option>
+                <option>Thailand</option>
+                <option>Greenland</option>
+            </select>
+            Upoad Photo
+            <input type="file" name="fileup" accept="image/*"/>
+            <br><br>
+            <input type="button" name="vid" value="Validate">
+            <input type="reset" name="rst" value="Reset">
+            <input type="submit" name="sub" value="Submit">
+            <input type="hidden" name="pagenm" value="l1">
+        </form>
+    </BODY>
+</HTML>
